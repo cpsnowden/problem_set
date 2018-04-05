@@ -39,7 +39,7 @@ class PriceTracker(object):
         Then the prices in the range [9:00, 9:01) (inclusive start exclusive end)
         would be £1.
 
-        Extension - what if it is not guaranteed that the each consequitive process_ticker_for 
+        Extension - what if it is not guaranteed that for each consequitive process_ticker_for 
         method call the timestamp increases.
         """
         pass
